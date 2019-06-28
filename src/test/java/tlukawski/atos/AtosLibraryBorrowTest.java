@@ -14,7 +14,7 @@ import tlukawski.atos.library.exception.NotExistException;
 import tlukawski.atos.library.storage.BookStorage;
 
 @RunWith(MockitoJUnitRunner.class)
-public class InMemoryStorageTest {
+public class AtosLibraryBorrowTest {
 
   @InjectMocks
   AtosLibrary library;
