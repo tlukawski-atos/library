@@ -39,6 +39,5 @@ public class LibraryMain {
     books2.forEach(p->System.err.println(p));
     System.err.println("---------------");
     System.err.println(library.getLibraryInformation());
-   ;
   }
 }

@@ -1,5 +1,5 @@
 package tlukawski.atos.library.exception;
 
-public class AlreadyBorrowedException extends Throwable {
+public class AlreadyBorrowedException extends Exception {
 
 }
