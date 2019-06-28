@@ -30,7 +30,7 @@ public class AtosLibrary implements Library{
 
 
   public void addBookToLibrary(Book book) {
-    storage.addToStorage(new LibraryBook(generator.generateUniqueId(), book));
+      storage.addToStorage(new LibraryBook(generator.generateUniqueId(), book));
   }
 
   @Override
@@ -50,7 +50,7 @@ public class AtosLibrary implements Library{
   }
 
   /**
-   * Optimistic locking for operation without recurency break condition can cause StackOverFlow error.
+   * Optimistic locking for operation without recurrency break condition can cause StackOverFlow error.
    * TODO: Add recurrency breaking condition.
    * TODO: Better if methods will return operation result information rather then throw checked exceptions.
    * @param id
